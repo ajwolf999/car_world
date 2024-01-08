@@ -1,15 +1,16 @@
 "use client";
 
-import CarCard from "@/components/Carcard";
-import CustomFilter from "@/components/CustomFilter";
-import Hero from "@/components/Hero";
-import SearchBar from "@/components/SearchBar";
-import ShowMore from "@/components/ShowMore";
+// import CarCard from "@/components/Carcard";
+// import CustomFilter from "@/components/CustomFilter";
+// import Hero from "@/components/Hero";
+// import SearchBar from "@/components/SearchBar";
+// import ShowMore from "@/components/ShowMore";
 import { fuels, yearsOfProduction } from "@/constants";
 import { fetchCars } from "@/utils/index";
 import Image from "next/image";
 import { useEffect, useState } from "react";
 import { getEnabledCategories } from "trace_events";
+import { CarCard, ShowMore, SearchBar, CustomFilter, Hero } from "@/components";
 
 export default function Home() {
   const [allCars, setAllCars] = useState([]);
