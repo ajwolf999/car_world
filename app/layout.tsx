@@ -5,7 +5,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "show me car",
+  title: "CarHub",
   description: "Discover the best cars in the world",
 };
 
